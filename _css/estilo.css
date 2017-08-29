@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+html{
+}
+
+body{
+	background-color: #dddddd;
+	text-align:left;
+	font-family: times;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+
+p {
+	font-family: Times;
+	font-size: 14pt;
+	text-indent: 50px;
+}
+
+h1{
+	font-family: Times;
+	font-size: 30pt;
+	text-shadow: 2px 2px 2px grey;
+	text-align:center;
+	font-family: Arial Rounded MT;
+	margin:0;
+	padding:0;
+}
+h2{
+	font-family: Times;
+	font-size: 18pt;
+}
+
+div.corpo{
+	max-width:1200px;
+	background-color: white;
+	padding: 10px;
+	margin:-10px auto 0px auto;
+}
+
+nav.menu{
+	background-color: #8100C1;
+	height:50px;
+	width:101.7%;
+	margin-left: -10px;
+	margin: 20px auto 20px auto 20px; 
+}
+
+nav.menu li:hover{
+	background-color: #FFF8DC;
+}
+
+nav.menu h1{
+	display: none;
+}
+
+nav.menu ul{
+	list-style:none;
+	top:50px;
+	left:30px;
+}
+
+
+
+/* dá uma olhada*/
+@media screen and(
+	min-width: 300px;
+){
+	nav.menu li{
+		font-size: 10px;
+	}
+
+}
+
+@mediascreen(
+	min-width: 600px;
+){
+	nav.menu li{
+	display:inline;
+	margin:0px;
+	padding:16px;
+	background: greenyellow;
+	color: rgb(266,59,76);
+	transition: background-color 1s;
+}
+	
+}
+
+nav.menu a{
+	text-decoration:none;
+}
+
+nav.menu a:hover{
+	color: #000000;
+}
+
+figure.logo img{
+	height: 100%;
+	width: 100%;
+	position: center;
+}
+
+figure.padrao img{
+	height: 80%;
+	width: 80%;
+	border: 3px solid #999999;
+	vertical-align: absolute;
+	margin-left: 70px;
+	position: center;
+}
+figcaption{
+	text-align:center;
+}
+
+div.rodaPe{
+	background: #222222;
+	color:white;
+	width:101.7%;
+	height: 150px;
+	margin-left: -10px;
+	margin-bottom:-10%;
+}
